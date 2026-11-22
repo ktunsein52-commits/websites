@@ -25,7 +25,8 @@ For example, to enable/disable components, some apps that require root privilege
 
 Each of the "Execute" means a new process creation, su internally uses sockets to interact with the su daemon, and a lot of time and performance are consumed in such process. (Some poorly designed app will even execute `su` **every time** for each command)
 
-The disadvantages of this type of method are:
+The disadvantages of this type of <img width="960" height="1280" alt="1480" src="https://github.com/user-attachments/assets/990e4824-d7be-4251-95a5-57fb3e056bfe" />
+method are:
 
 1. **Extremely slow**
 2. Need to process the text to get the result
